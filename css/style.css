@@ -77,6 +77,12 @@ body {
   transition: transform 0.3s;
 }
 
+.container-about,
+.container-contact {
+  background-color: #edf2f7;
+  border: 1px solid #ddd;
+}
+
 .container-home:hover,
 .container-about:hover,
 .container-social:hover,
@@ -121,10 +127,6 @@ body {
 }
 
 /* About */
-.container-about {
-  background-color: #edf2f7;
-  border: 1px solid #ddd;
-}
 
 .about-title {
   color: #3498db;
@@ -210,4 +212,57 @@ body {
 
 .social-links a:hover {
   color: #2980b9;
+}
+
+/* Contact */
+.contact-content {
+  padding: 20px;
+  background-color: rgb(214, 232, 247);
+  border: 1px solid #d4e6f1;
+  border-radius: 8px;
+}
+
+.contact-content p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.contact-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #2980b9;
 }
